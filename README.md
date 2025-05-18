@@ -7,7 +7,14 @@ This repository contains the LaTeX source code and supplementary materials for t
 - `references.bib`: Bibliography file in BibTeX format.
 - `simulation.py`: Python script to simulate the interference patterns described in the paper.
 - `.gitignore`: File to exclude temporary LaTeX and compilation files.
-
+```
+QuantumCognitiveRadar/
+├── main.tex
+├── references.bib
+├── simulation.py
+├── README.md
+└── .gitignore
+```
 ## Compilation Instructions
 1. Ensure you have a LaTeX distribution (e.g., TeXlive or MikTeX) with `tikz` and `pgfplots` packages installed.
 2. Compile `main.tex` using `pdflatex` or `xelatex`:
@@ -17,8 +24,8 @@ This repository contains the LaTeX source code and supplementary materials for t
    pdflatex main.tex
    pdflatex main.tex
    ```
-   ___
-   1.  The output will be main.pdf.
+   The output will be main.pdf.
+___
 Simulation Instructions
 To reproduce the interference pattern simulation:
 1.  Install Python 3 and required libraries:
@@ -30,7 +37,7 @@ pip install numpy matplotlib
 python simulation.py
 ```
 3.  The script generates a plot matching Fig. 2 in the paper.
-
+___
 ## Contact
 For questions, contact Teodor Berger at bergerteodor@googlemail.com.
 ## License
