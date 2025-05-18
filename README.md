@@ -50,9 +50,9 @@ ___
 ### 1. Create the files in Overleaf:
 - Create a new Overleaf project.
 - Add the following three files:
-  - `.gitignore` (copy the content provided above).
-  - `main.tex` (copy the updated LaTeX source).
-  - `references.bib` (copy the BibTeX entries).
+  - `.gitignore` 
+  - `main.tex` 
+  - `references.bib` 
 
 ### 2. Compile `main.tex`:
 - Set `main.tex` as the main document.
