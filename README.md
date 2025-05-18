@@ -9,7 +9,6 @@ ___
 ##### •  License: Creative Commons Attribution 4.0 International (CC BY 4.0)
 ___
 The project consists of a LaTeX document, a bibliography file, a Python simulation script, and supporting files for documentation and version control. All figures are generated internally using tikz and pgfplots to ensure no external dependencies.
-File Structure
 
 ## The repository contains the following files, organized in a flat structure for simplicity:
 ```
