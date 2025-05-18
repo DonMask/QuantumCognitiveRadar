@@ -3,8 +3,8 @@ The project “Involuntary Cognitive Influence on Quantum Systems: A Hypothesis 
 
 ## Repository Overview
 ##### •  Repository URL: https://github.com/DonMask/QuantumCognitiveRadar
-##### •  Zenodo DOI: **10.5281/zenodo.15458571**
-##### •  Author: **Teodor** **Berger**, Independent Researcher (bergerteodor@googlemail.com)
+##### •  Zenodo DOI: 10.5281/zenodo.15458571
+##### •  Author: Teodor Berger, Independent Researcher (bergerteodor@googlemail.com)
 ##### •  License: Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 The project consists of a LaTeX document, a bibliography file, a Python simulation script, and supporting files for documentation and version control. All figures are generated internally using tikz and pgfplots to ensure no external dependencies.
