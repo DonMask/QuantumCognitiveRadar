@@ -12,11 +12,11 @@ File Structure
 The repository contains the following files, organized in a flat structure for simplicity:
 ```
 QuantumCognitiveRadar/
+├── .gitignore
+├── README.md
 ├── main.tex
 ├── references.bib
-├── simulation.py
-├── README.md
-└── .gitignore
+└── simulation.py
 ```
 ```
 1. main.tex
