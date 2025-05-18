@@ -60,11 +60,11 @@ ___
    To reproduce the interference pattern simulation:
 1. Install Python 3 and required libraries:
 ```bash
-   pip install numpy matplotlib
+    pip install numpy matplotlib
 ```
 2. Run the simulation script:
 ```bash
-   python simulation.py
+    python simulation.py
 ```
 3. The script generates a plot matching Fig. 2 in the paper.
 ___
