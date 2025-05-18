@@ -16,6 +16,7 @@ QuantumCognitiveRadar/
 ├── .gitignore
 ├── README.md
 ├── main.tex
+├── QuantumCognitiveRadar.pdf
 ├── references.bib
 └── simulation.py
 ```
@@ -32,6 +33,11 @@ ___
 ##### 4. README.md
    •  Purpose: Documentation file providing an overview of the project, compilation instructions, simulation instructions, and        Zenodo metadata.
    •  **Description**: This Markdown file serves as the entry point for users accessing the repository. It describes the              project, lists the files, and provides detailed instructions for compiling the LaTeX document and running the simulation.       It also includes Zenodo metadata for archiving.
+##### 5. .gitignore
+   •  Purpose: Git configuration file to exclude temporary and generated files from version control.
+   •  **Description**: This file ensures that only essential files are tracked in the GitHub repository, excluding LaTeX                  compilation artifacts and Python cache files.
+##### 6. QuantumCognitiveRadar.pdf
+   •  **Description**: output/ final version.
 ___
 ## Compilation Instructions
 1. Ensure you have a LaTeX distribution (e.g., TeXlive or MikTeX) with `tikz` and `pgfplots` packages installed.
