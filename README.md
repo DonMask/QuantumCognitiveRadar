@@ -45,16 +45,26 @@ ___
    Description: output/ final version.
 ```
 ___
-## Compilation Instructions
-1. Ensure you have a LaTeX distribution (e.g., TeXlive or MikTeX) with `tikz` and `pgfplots` packages installed.
-2. Compile `main.tex` using `pdflatex` or `xelatex`:
-   ```bash
-   pdflatex main.tex
-   bibtex main
-   pdflatex main.tex
-   pdflatex main.tex
-   ```
-   The output will be main.pdf.
+### Steps for Using This Project in Overleaf
+
+### 1. Create the files in Overleaf:
+- Create a new Overleaf project.
+- Add the following three files:
+  - `.gitignore` (copy the content provided above).
+  - `main.tex` (copy the updated LaTeX source).
+  - `references.bib` (copy the BibTeX entries).
+
+### 2. Compile `main.tex`:
+- Set `main.tex` as the main document.
+- Use the `pdfLaTeX` compiler (default).
+- Click **Recompile** to generate the PDF (~4 pages).
+- You may need to compile 2–3 times for all citations from `references.bib` to resolve.
+
+### Troubleshooting
+
+**Citation issues:**
+- If you see `[?]` instead of proper references like [1], [2], [3], try compiling 2–3 times.
+- Make sure `references.bib` is in the root directory of the project.
 ___
 ## Simulation Instructions
    To reproduce the interference pattern simulation:
