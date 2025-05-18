@@ -1,12 +1,13 @@
-# QuantumCognitiveRadar
-
-This repository contains the LaTeX source code and supplementary materials for the paper "Involuntary Cognitive Influence on Quantum Systems: A Hypothesis Based on Human Radar-like Emission" by Teodor Berger.
-
-## Contents
-- `main.tex`: The main LaTeX file for the paper.
-- `references.bib`: Bibliography file in BibTeX format.
-- `simulation.py`: Python script to simulate the interference patterns described in the paper.
-- `.gitignore`: File to exclude temporary LaTeX and compilation files.
+# Detailed Project Structure
+The project “Involuntary Cognitive Influence on Quantum Systems: A Hypothesis Based on Human Radar-like Emission” is structured to ensure reproducibility, clarity, and compatibility with academic publishing standards (IEEE format) and open-access archiving platforms (Zenodo and GitHub). Below is the detailed structure of the project, including all files, their purposes, and their organization.
+Repository Overview
+•  Repository URL: https://github.com/DonMask/QuantumCognitiveRadar
+•  Zenodo DOI: 10.5281/zenodo.15458571
+•  Author: Teodor Berger, Independent Researcher (bergerteodor@googlemail.com)
+•  License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+The project consists of a LaTeX document, a bibliography file, a Python simulation script, and supporting files for documentation and version control. All figures are generated internally using tikz and pgfplots to ensure no external dependencies.
+File Structure
+The repository contains the following files, organized in a flat structure for simplicity:
 ```
 QuantumCognitiveRadar/
 ├── main.tex
@@ -38,7 +39,3 @@ python simulation.py
 ```
 3.  The script generates a plot matching Fig. 2 in the paper.
 ___
-## Contact
-For questions, contact Teodor Berger at bergerteodor@googlemail.com.
-## License
-This project is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
