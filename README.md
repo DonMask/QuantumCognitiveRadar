@@ -26,7 +26,7 @@ QuantumCognitiveRadar/
    ```
    The output will be main.pdf.
 ___
-Simulation Instructions
+## Simulation Instructions
 To reproduce the interference pattern simulation:
 1.  Install Python 3 and required libraries:
 ```bash
